@@ -11,7 +11,7 @@ import SocketIO
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
-    var socket = SocketIOClient(socketURL: URL(string: "http://192.168.178.128:3000")!, config: [.log(false), .forceWebsockets(true), .nsp("/post")])
+    var socket = SocketIOClient(socketURL: URL(string: "http://127.0.0.1:3000")!, config: [.log(false), .forceWebsockets(true), .nsp("/post")])
     
     var posts = [Post]()
 
