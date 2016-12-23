@@ -38,11 +38,11 @@ class FeedCustomCell: UITableViewCell{
     }
     
     @IBAction func onRemoveClick(_ sender: Any) {
-        delegate?.likeButtonDidClick(post: self.post!)
+        delegate?.removeButtonDidClick(post: self.post!)
     }
     
     @IBAction func onLikeClick(_ sender: Any) {
-        delegate?.removeButtonDidClick(post: self.post!)
+        delegate?.likeButtonDidClick(post: self.post!)
         
     }
     
