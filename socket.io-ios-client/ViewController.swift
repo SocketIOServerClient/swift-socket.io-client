@@ -34,6 +34,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if let dic = data[0] as? [String:AnyObject]{
                 self.renderView(dic)
                 self.postTableView.reloadData()
+                self.scrollToTop()
             }
         }
         
@@ -113,6 +114,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         feed["text"] = statusTextView.text as AnyObject?
         
         self.socket.emit("new post", feed)
+        
+        self.statusTextView.text = ""
     }
     
     
@@ -138,6 +141,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         p.like = post["like"]! as? Int
         
         self.posts.insert(p, at: 0)
+    }
+    
+    func scrollToTop() -> Void{
+        self.postTableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: .top, animated: true)
     }
 }
 
