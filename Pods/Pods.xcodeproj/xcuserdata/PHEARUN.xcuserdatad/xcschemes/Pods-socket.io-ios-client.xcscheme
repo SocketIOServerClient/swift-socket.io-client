@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "851D5D061E0CD21C00418B08"
-               BuildableName = "socket.io-ios-client.app"
-               BlueprintName = "socket.io-ios-client"
-               ReferencedContainer = "container:socket.io-ios-client.xcodeproj">
+               BlueprintIdentifier = "34A031D93AC2BAEB9D4CCDADF6D64A69"
+               BuildableName = "Pods_socket_io_ios_client.framework"
+               BlueprintName = "Pods-socket.io-ios-client"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "851D5D061E0CD21C00418B08"
-            BuildableName = "socket.io-ios-client.app"
-            BlueprintName = "socket.io-ios-client"
-            ReferencedContainer = "container:socket.io-ios-client.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "851D5D061E0CD21C00418B08"
-            BuildableName = "socket.io-ios-client.app"
-            BlueprintName = "socket.io-ios-client"
-            ReferencedContainer = "container:socket.io-ios-client.xcodeproj">
+            BlueprintIdentifier = "34A031D93AC2BAEB9D4CCDADF6D64A69"
+            BuildableName = "Pods_socket_io_ios_client.framework"
+            BlueprintName = "Pods-socket.io-ios-client"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "851D5D061E0CD21C00418B08"
-            BuildableName = "socket.io-ios-client.app"
-            BlueprintName = "socket.io-ios-client"
-            ReferencedContainer = "container:socket.io-ios-client.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
